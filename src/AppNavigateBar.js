@@ -1,14 +1,12 @@
 import React, { Component } from 'react';
 import AppBar from 'material-ui/AppBar';
-import MenuIcons from './components/MenuIcons'
+import MenuIcons from 'components/MenuIcons'
 
 class AppNavigateBar extends Component{      
   render() {
     return (
       <div>
-      <AppBar
-          title="Personal blog"
-        />
+      <AppBar title="Personal blog"/>
         <MenuIcons/>
       </div>
     );

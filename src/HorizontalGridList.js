@@ -20,28 +20,27 @@ const styles = {
 const tilesData = [
   {
     img: 'images/grid-list/image-1.jpg',
-    title: 'Breakfast',
-    author: 'jill111',
+    title: 'Category1',
   },
   {
     img: "images/grid-list/image-2.jpg",
-    title: 'Tasty burger',
-    author: 'pashminu',
+    title: 'Category-2',
   },
   {
     img: "images/grid-list/image-3.jpg",
-    title: 'Camera',
-    author: 'Danson67',
+    title: 'Category-3',
   },
   {
     img: 'images/grid-list/image-4.jpg',
-    title: 'Morning',
-    author: 'fancycrave1',
+    title: 'Category-4',
   },
   {
     img: 'images/grid-list/image-5.jpg',
-    title: 'Hats',
-    author: 'Hans',
+    title: 'Category-5',
+  },
+  {
+    img: 'images/grid-list/image-6.jpg',
+    title: 'Category-6',
   }
 ];
 

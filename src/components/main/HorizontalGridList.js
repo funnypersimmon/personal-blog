@@ -40,9 +40,6 @@ const tilesData = [
   }
 ];
 
-/**
- * This example demonstrates the horizontal scrollable single-line grid list of images.
- */
 const GridListExampleSingleLine = () => (
   <div style={styles.root}>
     <GridList style={styles.gridList} cols={2.2}>
@@ -61,3 +58,4 @@ const GridListExampleSingleLine = () => (
 );
 
 export default GridListExampleSingleLine;
+export { styles };
