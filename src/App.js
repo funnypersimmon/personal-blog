@@ -3,9 +3,12 @@ import 'styles/App.css';
 import Header from 'components/header/Header.js';
 import Main from 'components/main/Main.js';
 import PersonalBlogDrawer from 'components/PersonalBlogDrawer.js';
+import Post from 'components/post/Post.js';
+
+
 
 const Home = () => (
-  <div className="content-center">
+  <div>
     <h1>Welcome to the Home Page</h1>
   </div>
 )
@@ -17,7 +20,8 @@ const AboutMe = () => (
 
 //Stub
 const EmptyPage = () => (
-  <div>Text
+  <div className="content-center">
+    <Post/>
   </div>
 )
 

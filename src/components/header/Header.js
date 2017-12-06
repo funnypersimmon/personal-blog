@@ -1,5 +1,6 @@
 import React, { PureComponent } from 'react';
 import AppBar from 'material-ui/AppBar';
+import ButtonAdd from 'components/ButtonAdd';
 
 class Header extends PureComponent {
 
@@ -11,6 +12,8 @@ class Header extends PureComponent {
        <AppBar
         title="Personal blog"
         onLeftIconButtonTouchTap={onMenuToggle}>
+        <ButtonAdd/>
+
         </AppBar>
      </div>
    );
